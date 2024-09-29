@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi CSS</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container-navbar">
+        <ul class="ul-navbar">
+            <li class="li-navbar">
+                <a href="#" class="a-navbar">Register</a>
+            </li>
+            <li class="li-navbar">
+                <a href="#" class="a-navbar">Login</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-content">
+        <form action="#">
+            <h1>Sign In</h1>
+            <div class="input-box">
+                <label class="text">Email Address</label>
+                <input type="email" placeholder="Username" required>
+            </div>
+            <div class="input-box">
+                <label class="text">Password</label>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="button">Sign In</button>
+            <div class="register-link">
+                <p>Don't have an account? <a href="#">Sign Up</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="container2-content">
+        <form action="#">
+            <h1>Register</h1>
+            <div class="input3-box">
+                <div class="input-half">
+                    <label>First name</label>
+                    <input type="text" placeholder="First name" required>
+                </div>
+                <div class="input-half">
+                    <label>Last name</label>
+                    <input type="text" placeholder="Last name" required>
+                </div>
+            </div>
+            <div class="input2-box">
+                <label>Email</label>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="input2-box">
+                <label>Major</label>
+                <select id="major" name="major">
+                    <option value="" selected disabled hidden class="hidden">Choose your major</option>
+                    <option value="Sisfor">Sistem Informasi</option>
+                    <option value="Tekdus">Teknik Industri</option>
+                    <option value="RPL">Rekayasa Perangkat Lunak</option>
+                    <option value="Tekfor">Teknik Informatika</option>
+                </select>
+            </div>
+            <div class="input2-box">
+                <label>Password</label>
+                <input type="password" placeholder="Password" required>
+            </div>
+
+            <button type="submit" class="button2">Daftar</button>
+
+            <div class="register2-link">
+                <p>Already have an account? <a href="#">Sign In</a></p>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
